@@ -63,7 +63,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
                 />
 
                 <img src={`/imgs/flags/${awayTeam}.png`} />
-                <span className="uppercase text-left">{awayTeam}</span>
+                <span className="uppercase text-left">_{awayTeam}</span>
 
             </form>
         </div>
