@@ -51,7 +51,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
                     onBlur={formik.handleSubmit}
                     disabled={disabled}
                 />
-                <span className="text-red-500 ">X</span>
+                <span className="text-red-500 ">x</span>
                 <input 
                     type="number" 
                     name="awayTeamScore"
@@ -63,7 +63,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
                 />
 
                 <img src={`/imgs/flags/${awayTeam}.png`} />
-                <span className="uppercase">{awayTeam} </span>
+                <span className="uppercase text-left">{awayTeam}</span>
 
             </form>
         </div>
