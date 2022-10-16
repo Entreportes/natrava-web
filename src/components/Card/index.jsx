@@ -36,7 +36,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
     })
     return(
         <div className="rounded-xl border border-gray-300 text-center p-3 space-y-4">
-            <span className="text-xs md:text-base text-gray-700 font-bold">{gameTime}</span>
+            <span className="text-xs md:text-base text-gray-700 font-bold"> {gameTime}</span>
             <form className="flex space-x-4 justify-center items-center font-bold ">
 
                 <span className="uppercase">{homeTeam}</span>
@@ -63,7 +63,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
                 />
 
                 <img src={`/imgs/flags/${awayTeam}.png`} />
-                <span className="uppercase">{awayTeam}</span>
+                <span className="uppercase">{awayTeam} </span>
 
             </form>
         </div>
