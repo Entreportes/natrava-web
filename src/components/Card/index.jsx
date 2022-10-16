@@ -35,17 +35,17 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
         validationSchema
     })
     return(
-        <div className="rounded-xl border border-gray-300 text-center p-5 space-y-4">
+        <div className="rounded-xl border border-gray-300 text-center p-4 space-y-4">
             <span className="text-xs md:text-base text-gray-700 font-bold"> {gameTime}</span>
-            <form className="flex space-x-4 justify-center items-center font-bold ">
+            <form className="flex space-x-3 justify-center items-center font-bold ">
 
-                <span className="uppercase">{homeTeam}</span>
+                <span className="uppercase text-right">{homeTeam}</span>
                 <img src={`/imgs/flags/${homeTeam}.png`}/>
 
                 <input 
                     type="number"
                     name="homeTeamScore"
-                    className="bg-red-300/[0.2] w-[55px] h-[55px] text-red-700 text-xl text-center " 
+                    className="bg-red-300/[0.2] w-[52px] h-[52px] text-red-700 text-xl text-center" 
                     value={formik.values.homeTeamScore}
                     onChange={formik.handleChange}
                     onBlur={formik.handleSubmit}
@@ -55,7 +55,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
                 <input 
                     type="number" 
                     name="awayTeamScore"
-                    className="bg-red-300/[0.2] w-[55px] h-[55px] text-red-700 text-xl text-center " 
+                    className="bg-red-300/[0.2] w-[52px] h-[52px] text-red-700 text-xl text-center " 
                     value={formik.values.awayTeamScore}
                     onChange={formik.handleChange}
                     onBlur={formik.handleSubmit}
