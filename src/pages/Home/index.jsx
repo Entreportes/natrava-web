@@ -10,7 +10,7 @@ export function Home() {
       return <Navigate to ="/dashboard" replace={true}/>
   }
   return (
-    <div className=" bg-red-700  text-white p-4 flex flex-col items-center space-y-6">
+    <div className="h-screen bg-red-700  text-white p-4 flex flex-col items-center space-y-6">
       <header className="container max-w-5xl flex justify-center p-4">
         <img src="/imgs/logo-fundo-vermelho.svg" className="w-40"/>
 
