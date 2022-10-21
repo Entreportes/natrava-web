@@ -24,7 +24,7 @@ export function Home() {
 
 
 
-          <div className="md:flex-1 flex flex-col space-y-6">
+          <div className="md:flex-1 flex-2 flex-col space-y-6">
             <h1 className="text-xl text-center font-bold md:text-left md:text-3xl">
               Dê o seu palpite na Copa do Mundo Catar 2022!
             </h1>
