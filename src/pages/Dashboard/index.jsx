@@ -102,8 +102,8 @@ export const Dashboard = () => {
                                 homeTeam={game.homeTeam}
                                 awayTeam={game.awayTeam}
                                 gameTime={format(new Date(game.gameTime), "H':'mm")}
-                                homeTeamScore={hunches?.value?.[game.id]?.homeTeamScore || ''}
-                                awayTeamScore={hunches?.value?.[game.id]?.awayTeamScore || ''}
+                                homeTeamScore={hunches?.value?.[game.id]?.homeTeamScore || 0 }
+                                awayTeamScore={hunches?.value?.[game.id]?.awayTeamScore || 0 }
                                 disabled = {false}
                             
                             />
