@@ -113,8 +113,8 @@ export const Profile = () => {
                                 homeTeam={game.homeTeam}
                                 awayTeam={game.awayTeam}
                                 gameTime={format(new Date(game.gameTime), "H':'mm")}
-                                homeTeamScore={hunches?.value?.hunches?.[game.id]?.homeTeamScore || ''}
-                                awayTeamScore={hunches?.value?.hunches?.[game.id]?.awayTeamScore || ''}
+                                homeTeamScore={hunches?.value?.hunches?.[game.id]?.homeTeamScore || 0}
+                                awayTeamScore={hunches?.value?.hunches?.[game.id]?.awayTeamScore || 0}
                                 disabled = {true}
                             
                             />
