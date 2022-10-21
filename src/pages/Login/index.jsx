@@ -72,7 +72,7 @@ export const Login = () => {
                         onBlur={formik.handleBlur}
                     />
                      <Input
-                        type="text"
+                        type="password"
                         name="password"
                         label="Sua senha:"
                         placeholder="Digite sua senha:"
