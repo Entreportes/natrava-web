@@ -45,7 +45,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
                 <input 
                     type="number"
                     name="homeTeamScore"
-                    className="disabled:bg-red-300/[0.2] w-[52px] h-[52px] text-red-700 text-xl text-center" 
+                    className="!disabled:bg-red-300/[0.2] w-[52px] h-[52px] text-red-700 text-xl text-center" 
                     value={formik.values.homeTeamScore}
                     onChange={formik.handleChange}
                     onBlur={formik.handleSubmit}
@@ -55,7 +55,7 @@ export const Card = ({disabled, gameId, homeTeam, awayTeam, gameTime, homeTeamSc
                 <input 
                     type="number" 
                     name="awayTeamScore"
-                    className="bg-red-300/[0.2] w-[52px] h-[52px] text-red-700 text-xl text-center " 
+                    className="!disabled:bg-red-300/[0.2] w-[52px] h-[52px] text-red-700 text-xl text-center " 
                     value={formik.values.awayTeamScore}
                     onChange={formik.handleChange}
                     onBlur={formik.handleSubmit}
