@@ -11,12 +11,12 @@ export function Home() {
   }
   return (
     <view className='flex-1 bg-red-700'>
-      <div className="h-screen bg-red-700  text-white p-4 flex flex-col items-center space-y-6">
+      <div className="h-screen bg-red-700  text-white p-4 flex flex-col items-center space-y-4">
         <header className="container max-w-5xl flex justify-center p-4">
           <img src="/imgs/logo-fundo-vermelho.svg" className="w-40"/>
 
         </header>
-        <div className="container   flex-1 p-4 flex flex-col items-center md:flex-row space-y-6 md:space-y-0 md:space-x-6">
+        <div className="container   flex-1 p-4 flex flex-col items-center md:flex-row space-y-4 md:space-y-0 md:space-x-6">
 
           <div className="md:flex-1 flex  justify-center">
             <img src="/imgs/photo2.png" className="w-full  max-w-md"/>
@@ -24,7 +24,7 @@ export function Home() {
 
 
 
-          <div className="md:flex-1 flex-2 flex-col space-y-6">
+          <div className="md:flex-1 flex flex-col space-y-4">
             <h1 className="text-xl text-center font-bold md:text-left md:text-3xl">
               Dê o seu palpite na Copa do Mundo Catar 2022!
             </h1>
