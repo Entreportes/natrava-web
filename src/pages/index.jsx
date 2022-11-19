@@ -30,6 +30,14 @@ import { Profile } from "./Profile";
       element: <Dashboard/>,
     },
     {
+      path: "/PoliticaPrivacidade",
+      element: <Privacidade/>,
+    },
+    {
+      path: "/Regras",
+      element: <Regras/>,
+    },
+    {
       path: "/:username",
       element: <Profile/>,
     },
