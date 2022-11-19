@@ -18,21 +18,16 @@ export function Regras() {
 
 
           <div className="md:flex-1 flex flex-col space-y-4">
-            <h1 className="text-2xl text-center font-bold md:text-left md:text-3xl">
+            <h1 className="text-2xl text-center font-bold md:text-left md:text-xl">
               Regras
             </h1>
 
             
-            <h2 className="text-lg text-center font-bold md:text-left md:text-3xl">
+            <h2 className="text-sm text-center font-bold md:text-left md:text-sm">
               Acertou o placar:      5 pontos{'\n'}
               Acertou empate:        3 pontos{'\n'}
               Acertou time vencedor: 2 pontos{'\n'}
               Se acertou o placar de algum time +1 ponto
-            </h2>
-            <h2 className="text-lg text-center font-bold md:text-left md:text-3xl">
-                Serão coletas apenas as informações de NOME, E-MAIL, ID do Google e FOTO DO PERFIL na conta Google. Serão armezanados em nosso servidor apenas as informações disponibilizadas pelo login social 
-                    nenhuma informação será compartilhada. Essas informações são essenciais para saber quem é o usuário que estará dando os palpites.
-                
             </h2>
           </div>
 

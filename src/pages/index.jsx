@@ -32,11 +32,11 @@ import { Regras } from "./Regras";
       element: <Dashboard/>,
     },
     {
-      path: "/PoliticaPrivacidade",
+      path: "/politicaPrivacidade",
       element: <Privacidade/>,
     },
     {
-      path: "/Regras",
+      path: "/regras",
       element: <Regras/>,
     },
     {
