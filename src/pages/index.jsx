@@ -11,6 +11,8 @@ import { Home } from "./Home"
 import { Login } from "./Login";
 import { Signup } from "./Signup";
 import { Profile } from "./Profile";
+import { Privacidade } from "./PoliticaPrivacidade";
+import { Regras } from "./Regras";
 
   const router = createBrowserRouter([
     {
