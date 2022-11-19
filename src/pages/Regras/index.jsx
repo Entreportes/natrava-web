@@ -24,10 +24,10 @@ export function Regras() {
 
             
             <h2 className="text-sm text-center font-bold md:text-left md:text-sm">
-              Acertou o placar:      5 pontos{'\n'}
-              Acertou empate:        3 pontos{'\n'}
-              Acertou time vencedor: 2 pontos{'\n'}
-              Se acertou o placar de algum time +1 ponto
+              <h3>Acertou o placar:      5 pontos</h3>
+              <h3>Acertou empate:        3 pontos</h3>
+              <h3>Acertou time vencedor: 2 pontos </h3>
+              <h3>Se acertou o placar de algum time +1 ponto</h3>
             </h2>
           </div>
 

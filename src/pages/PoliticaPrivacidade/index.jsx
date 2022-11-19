@@ -23,10 +23,10 @@ export function Privacidade() {
             </h1>
 
             
-            <h2 className="text-sm text-center font-bold md:text-left md:text-3xl">
+            <h2 className="text-lg text-center font-bold md:text-left md:text-lg">
                 Ao instalar o app será solicitado o login social utilizando a conda do Google.
             </h2>
-            <h2 className="text-sm text-center font-bold md:text-left md:text-3xl">
+            <h2 className="text-lg text-center font-bold md:text-left md:text-lg">
                 Serão coletas apenas as informações de NOME, E-MAIL, ID do Google e FOTO DO PERFIL na conta Google. Serão armezanados em nosso servidor apenas as informações disponibilizadas pelo login social 
                     nenhuma informação será compartilhada. Essas informações são essenciais para saber quem é o usuário que estará dando os palpites.
                 
